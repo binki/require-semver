@@ -1,0 +1,18 @@
+{
+    "name": "require-semver",
+    "version": "0.1.0",
+    "description": "Alternative node_modules layout supporting version slotting.",
+    "license": "MIT",
+    "repository": "https://github.com/binki/require-semver",
+    "main": "require-semver.js",
+    "bin": {
+	"require-semver-fixdir": "./bin/require-semver-fixdir.js"
+    },
+    "dependencies": {
+	"graceful-fs": "~4",
+	"lodash": "~4",
+	"semver": "~5",
+	"promisify-node": "~0",
+	"rimraf": "~2"
+    }
+}
