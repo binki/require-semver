@@ -38,7 +38,7 @@ There are two steps to using `require-semver`.
 
         $ npm install require-semver
 
-   This is necessary because the changed repository format’s shims rely on `require_semver`.
+   This is necessary because the changed repository format’s shims rely on `require-semver`.
 
 2. Fix your `node_modules` directory to use the changed repository format and place shims.
    This package provides the tool `require-semver-fixdir` to do that for you.
